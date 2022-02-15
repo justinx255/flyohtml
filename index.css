@@ -12,7 +12,7 @@
 }
 html {
 	overflow-x: hidden;
-  font-size: 18px;
+	font-size: 18px;
 }
 body {
 	margin: 0;
@@ -184,12 +184,11 @@ footer {
 	border-radius: 50%;
 	border: 1px solid white;
 	padding: 14px;
-  margin: 0 12px;
+	margin: 0 12px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 786px) {
 	html {
 		overflow-x: hidden;
-
 	}
 	nav > img {
 		width: 30%;
@@ -267,8 +266,8 @@ footer {
 		grid-template-columns: minmax(100%, 1fr);
 	}
 	.icon-list {
-    display: flex;
-    margin: 0 10%;
-    padding-bottom: 50px;
+		display: flex;
+		margin: 0 10%;
+		padding-bottom: 50px;
 	}
 }
